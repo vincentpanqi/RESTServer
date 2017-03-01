@@ -90,7 +90,7 @@ status_code = {
 }
 
 
-class Tiny:
+class RESTServer:
     def __init__(self):
         self.processors = []
         self.stack = {}

@@ -1,6 +1,6 @@
-from tiny import Tiny
+from RESTServer import RESTServer
 
-app = Tiny()
+app = RESTServer()
 
 
 @app.plugin
